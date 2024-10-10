@@ -101,7 +101,8 @@ body {
         </div>
     </div>
 
-    <script>
+  <!--  -->
+  <script>
 async function getChatGPTResponse(userInput) {
     const response = await fetch('/.netlify/functions/openai-request', {
         method: 'POST',
@@ -117,6 +118,6 @@ async function getChatGPTResponse(userInput) {
     return data.choices[0].text.trim();
 }
 
-    </script>
+    </script> -->
 </body>
 </html>
